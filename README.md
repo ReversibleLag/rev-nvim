@@ -7,6 +7,7 @@ sudo apt install make gcc ripgrep unzip git xclip neovim
 Install Oh-My-ZSH
 https://github.com/ohmyzsh/ohmyzsh
 ```
+apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
