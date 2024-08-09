@@ -7,14 +7,15 @@ sudo apt install make gcc ripgrep unzip git xclip neovim
 Install Oh-My-ZSH
 https://github.com/ohmyzsh/ohmyzsh
 ```
-apt install zsh
+sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ```
-cd ~/.config
-ssh-keygen -t rsa
-
-cat ~/.ssh/id_rsa.pub
-git clone git@github.com:ReversibleLag/rev-nvim.git
+mkdir ~/.config
+git clone https://github.com/ReversibleLag/rev-nvim.git
+cd rev-nvim
+mv rev-nvim nvim
+cd nvim
+nvim init.lua
 ```
